@@ -91,4 +91,7 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
-# NBP---kursy-walut
+# NBP-kursy-walut
+
+### Demo  https://nbp2.panpepson.now.sh
+
