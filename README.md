@@ -93,5 +93,5 @@ surge public my-project.surge.sh
 ```
 # NBP-kursy-walut
 
-### Demo  https://nbp2.panpepson.now.sh
+### Demo  https://nbp.now.sh
 
