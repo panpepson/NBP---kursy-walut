@@ -64,4 +64,4 @@
 {#if ile}
   <h1>{ile} {op} = {wynik} zł</h1>
 {/if}
-<h1>{kurs} kurs {op}</h1>
+<h1>{kurs ? kurs : 'Ładowanie...'} kurs {op}</h1>
