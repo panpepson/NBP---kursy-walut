@@ -21,6 +21,7 @@
     "CNY"
   ];
   let op = opts[0];
+  let tabela = "a";
 
   onMount(async () => {
     const res = await fetch(
@@ -35,7 +36,10 @@
     alert("A Ty łobuzie! Podziel sie z wujkiem Pepsonem :)");
   }
   function kantor(op) {
-    let waluta = `https://api.nbp.pl/api/exchangerates/rates/a/${op}/?format=json`;
+    if(op == "BYN"){
+      tabela="b"
+    }
+    let waluta = `https://api.nbp.pl/api/exchangerates/rates/${tabela}/${op}/?format=json`;
     fetch(`${waluta}`)
       .then(r => r.json())
       .then(data => {
