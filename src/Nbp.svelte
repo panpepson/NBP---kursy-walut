@@ -11,6 +11,7 @@
     "CHF",
     "UAH",
     "RUB",
+    "BYN",
     "CZK",
     "HUF",
     "NOK",
