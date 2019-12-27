@@ -36,8 +36,10 @@
     alert("A Ty łobuzie! Podziel sie z wujkiem Pepsonem :)");
   }
   function kantor(op) {
-    if(op == "BYN"){
-      tabela="b"
+    if (op == "BYN") {
+      tabela = "b";
+    } else {
+      tabela = "a";
     }
     let waluta = `https://api.nbp.pl/api/exchangerates/rates/${tabela}/${op}/?format=json`;
     fetch(`${waluta}`)
